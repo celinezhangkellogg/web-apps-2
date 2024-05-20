@@ -6,6 +6,9 @@ class ContactsController < ApplicationController
     # render contacts/show view with details about Contact
   end
 
+  def index
+  end
+  
   def new
     # render contacts/new view with new Contact form
   end
